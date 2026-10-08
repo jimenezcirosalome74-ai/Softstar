@@ -33,7 +33,7 @@ Nuestro equipo domina y aplica un amplio stack tecnológico para garantizar cali
 | Nombre | Usuario de GitHub | Rol |
 | :--- | :--- | :--- |
 | **Estiven Garcés Abreo** | `@EstivenG1` | Desarrollador de Software |
-| **Juan José Piedrahita Álvarez** | `Jalvarezzz29` | Desarrollador de Software |
+| **Juan José Piedrahita Álvarez** | `@Jalvarezzz29` | Desarrollador de Software |
 | **Samuel Mira García** | `@SamuelMiraG` | Desarrollador Backend / Base de Datos |
 | **Salomé Jiménez Ciro** | `@jimenezcirosalome74-ai` | Desarrolladora Frontend |
 | **Salomé Yepes Cuartas** | `@mariacuartas30` | Desarrolladora de Software |
