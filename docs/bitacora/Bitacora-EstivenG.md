@@ -16,3 +16,6 @@
 3. **Control de Versiones y Sincronización:**
    * Se solucionaron conflictos de ramas divergentes mediante la configuración de Git (`git config pull.rebase false`).
    * Se subió la rama de trabajo y se gestionó el almacenamiento de los cambios en el repositorio remoto.
+
+
+
