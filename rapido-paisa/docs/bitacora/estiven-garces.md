@@ -1,20 +1,12 @@
-# 📓 Bitácora R1 · <tu nombre>
+📓 Bitácora R1 · Estiven Garcés Abreo
+🛵 Proyecto: Rápido Paisa · Requerimiento 1 (R1)
+📅 Fecha: 15/10/2026
 
-> 🛵 Proyecto: Rápido Paisa · Requerimiento 1 (R1)
-> 📅 Fecha: <dd/mm/aaaa>
+🎫 Ticket que hice
+Implementar las funciones de lectura de archivos (.txt, .csv, .json) en el módulo lectores.py.
 
-## 🎫 Ticket que hice
+🧩 Problema que encontré y cómo lo resolví
+Tuve inconvenientes iniciales al crear la rama debido a espacios en el nombre, lo cual solucioné usando guiones y barras diagonales. Además, al estructurar la lectura de archivos, el formato de extensión presentaba diferencias de mayúsculas, por lo que agregué .lower() para normalizarlo correctamente.
 
-(Número y título del ticket. Ejemplo: #42 Redactar instrucciones de ejecución en README.md)
-
-## 🧩 Problema que encontré y cómo lo resolví
-
-(Cuenta qué falló y qué hiciste para arreglarlo)
-
-## 🤖 Uso de IA
-
-(Si la usaste: ¿para qué? ¿qué tuviste que corregir? Si no, escribe "No usé IA".)
-
----
-
-📏 La entrada completa debe tener entre 5 y 8 líneas.
+🤖 Uso de IA
+Usé la IA para repasar la sintaxis exacta de csv.DictReader y asegurar el manejo correcto de la codificación UTF-8 en los tres formatos. Tuve que corregir la forma en que se retornaban los diccionarios para que fueran compatibles con el resto del equipo.
