@@ -5,7 +5,7 @@ from pathlib import Path
 # (Asegúrate de coordinar con ellos los nombres de las funciones)
 from lectores import leer_pedido
 from sedes import identificar_sede
-from organizador import guardar_pedido_en_sede
+from organizar import guardar_pedido_en_sede
 
 def procesar_bandeja_entrada():
     """
