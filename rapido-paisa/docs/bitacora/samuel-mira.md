@@ -1,20 +1,16 @@
-# 📓 Bitácora R1 · <tu nombre>
+# 📓 Bitácora R1 · Samuel Mira García
 
 > 🛵 Proyecto: Rápido Paisa · Requerimiento 1 (R1)
-> 📅 Fecha: <dd/mm/aaaa>
+> 📅 Fecha: 15/10/2026
 
 ## 🎫 Ticket que hice
 
-(Número y título del ticket. Ejemplo: #42 Redactar instrucciones de ejecución en README.md)
+#01 Creación del archivo .gitignore e inicialización de la estructura base del proyecto
 
 ## 🧩 Problema que encontré y cómo lo resolví
 
-(Cuenta qué falló y qué hiciste para arreglarlo)
+Durante la configuración inicial, algunos archivos temporales e ideales para ocultar se estaban incluyendo en el seguimiento de Git. Lo resolví especificando las reglas de exclusión en el `.gitignore` y organizando las carpetas principales del proyecto según la arquitectura requerida.
 
 ## 🤖 Uso de IA
 
-(Si la usaste: ¿para qué? ¿qué tuviste que corregir? Si no, escribe "No usé IA".)
-
----
-
-📏 La entrada completa debe tener entre 5 y 8 líneas.
+Utilicé la IA para generar una plantilla estándar de `.gitignore` adaptada al entorno del proyecto y verificar la distribución de las carpetas.
