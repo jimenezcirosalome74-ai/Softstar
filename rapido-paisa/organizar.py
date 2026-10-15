@@ -1,11 +1,10 @@
 import os
 from pathlib import Path
 
-# Importamos las funciones desarrolladas por tus compañeros
-# (Asegúrate de coordinar con ellos los nombres de las funciones)
+# Importamos las funciones desarrolladas por los compañeros
 from lectores import leer_pedido
 from sedes import identificar_sede
-from organizador import guardar_pedido_en_sede
+from organizar import guardar_pedido_en_sede
 
 def procesar_bandeja_entrada():
     """
@@ -32,14 +31,19 @@ def procesar_bandeja_entrada():
 
     # Recorrer todos los archivos dentro de bandeja_entrada
     for archivo in ruta_bandeja.iterdir():
-        if archivo.is_file():
+        # Validar que sea un archivo y omitir archivos ocultos del sistema (ej. .DS_Store)
+        if archivo.is_file() and not archivo.name.startswith('.'):
             total_procesados += 1
             
-            # 1. Leer contenido con el módulo de tu compañero/a
+            # 1. Leer contenido
             contenido = leer_pedido(archivo)
             
-            # 2. Identificar la sede con el módulo de tu compañero/a
+            # 2. Identificar la sede y normalizar a minúsculas sin tildes si es necesario
             sede = identificar_sede(contenido, archivo)
+            if isinstance(sede, str):
+                sede = sede.strip().lower().replace("ü", "u").replace("í", "i")
+            else:
+                sede = "revisar"
             
             # 3. Guardar/copiar el archivo a su sede
             guardar_pedido_en_sede(archivo, sede)
@@ -50,7 +54,7 @@ def procesar_bandeja_entrada():
             else:
                 conteo_sedes["revisar"] += 1
 
-    # 4. Generar el archivo resumen.txt para la entrega del lote 1
+    # 4. Generar el archivo resumen.txt
     escribir_resumen(total_procesados, conteo_sedes)
     
     print("\n✅ ¡Proceso completado con éxito!")
