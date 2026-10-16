@@ -1,20 +1,16 @@
 # 📓 Bitácora R1 · <tu nombre>
 
 > 🛵 Proyecto: Rápido Paisa · Requerimiento 1 (R1)
-> 📅 Fecha: <dd/mm/aaaa>
+> 📅 Fecha: <15/10/2026>
 
 ## 🎫 Ticket que hice
 
-(Número y título del ticket. Ejemplo: #42 Redactar instrucciones de ejecución en README.md)
+tarea #40
 
-## 🧩 Problema que encontré y cómo lo resolví
+Durante la jornada trabajé en el desarrollo de una función en Python encargada de identificar a qué sede pertenece cada pedido: Itagüí, Envigado o Sabaneta. Para ello, analicé la información disponible en la carpeta bandeja_entrada, con el objetivo de reconocer patrones que permitieran clasificar los pedidos correctamente.
 
-(Cuenta qué falló y qué hiciste para arreglarlo)
+También trabajé en la validación de los datos para identificar pedidos cuya sede no se pudiera determinar o que presentaran inconsistencias entre la información encontrada. Estos casos se marcarían como desconocidos o pendientes de revisión.
 
 ## 🤖 Uso de IA
 
-(Si la usaste: ¿para qué? ¿qué tuviste que corregir? Si no, escribe "No usé IA".)
-
----
-
-📏 La entrada completa debe tener entre 5 y 8 líneas.
+use la ia para poder crear el codigo mas rapido, ademas hubo momentos en los que estuve atascado y sentia que el codigo no estaba funcionando correctamente y la ia me ayudo a solucionar estos casos
